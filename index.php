@@ -76,7 +76,7 @@ $semester = SEMESTER;
                   <p class="text-muted"></p>
                 </div>
                 <div class="user-thumb text-center">
-                  <img src="img/<?= $img ?>" class="rounded-circle img-thumbnail avatar-lg shadow" alt="thumbnail">
+                  <img src="img/<?= $img ?>" class=" img-thumbnail  shadow" alt="thumbnail" height="120px">
                   <h5 class="font-size-15 mt-3"><span class="mr-2">Nama Lengkap : </span><?= $name ?></h5>
                   <h5 class="font-size-15 mt-3"><span class="mr-2">Nim : </span><?= $nim ?></h5>
                   <h5 class="font-size-15 mt-3"><span class="mr-2">Semester : </span><?= $semester ?></h5>

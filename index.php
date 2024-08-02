@@ -1,21 +1,22 @@
 <?php
-require_once(__DIR__ . "/config.php");
+require_once __DIR__ . '/config.php';
 $name = NAME;
 $nim = NIM;
-
+$img = IMG;
+$semester = SEMESTER;
 ?>
 <!doctype html>
 <html lang="en" data-layout="vertical" data-topbar="light" data-sidebar="dark" data-sidebar-size="lg" data-sidebar-image="none" data-preloader="disable">
 
 
-<!-- Mirrored from themesbrand.com/velzon/html/material/pages-coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 13:05:20 GMT -->
+<!-- Mirrored from themesbrand.com/velzon/html/material/auth-lockscreen-basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 13:04:24 GMT -->
 
 <head>
 
   <meta charset="utf-8" />
-  <title><?= $name . ' - ' . $nim ?></title>
+  <title><?= $name ?> - sp kelas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+  <meta content="sp kelas b - platform komputasi awan" name="description" />
   <meta content="Themesbrand" name="author" />
   <!-- App favicon -->
   <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -51,32 +52,50 @@ $nim = NIM;
     <!-- auth page content -->
     <div class="auth-page-content">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="text-center mt-sm-5 pt-4 mb-4">
-              <div class="mb-sm-5 pb-sm-4 pb-5">
-                <img src="assets/images/comingsoon.png" alt="" height="120" class="move-animation">
-              </div>
-              <div class="mb-5">
-                <h1 class="display-2 coming-soon-text">SP KELAS B</h1>
-              </div>
+        <div class="row mb-5">
+          <div class="col-lg-12 mb-5">
+            <div class="text-center mt-sm-5 mb-4 text-white-50">
               <div>
-
-                <div class="mt-5">
-                  <h4>NAMA : <?= $name ?></h4>
-                  <h4>NIM : <?= $nim ?></h4>
-                </div>
+                <!-- <a href="index.html" class="d-inline-block auth-logo">
+                  <img src="assets/images/logo-light.png" alt="" height="20">
+                </a> -->
               </div>
+              <!-- <p class="mt-3 fs-15 fw-medium">Premium Admin & Dashboard Template</p> -->
             </div>
           </div>
         </div>
         <!-- end row -->
 
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6 col-xl-5">
+            <div class="card mt-4">
+
+              <div class="card-body p-4">
+                <div class="text-center mt-2">
+                  <h5 class="text-primary">PLATFORM KOMPUTASI AWAN </h5>
+                  <p class="text-muted"></p>
+                </div>
+                <div class="user-thumb text-center">
+                  <img src="img/<?= $img ?>" class="rounded-circle img-thumbnail avatar-lg shadow" alt="thumbnail">
+                  <h5 class="font-size-15 mt-3"><span class="mr-2">Nama Lengkap : </span><?= $name ?></h5>
+                  <h5 class="font-size-15 mt-3"><span class="mr-2">Nim : </span><?= $nim ?></h5>
+                  <h5 class="font-size-15 mt-3"><span class="mr-2">Semester : </span><?= $semester ?></h5>
+                </div>
+              </div>
+              <!-- end card body -->
+            </div>
+            <!-- end card -->
+
+
+          </div>
+        </div>
+        <!-- end row -->
       </div>
       <!-- end container -->
     </div>
     <!-- end auth page content -->
 
+    <!-- footer -->
   </div>
   <!-- end auth-page-wrapper -->
 
@@ -92,13 +111,9 @@ $nim = NIM;
   <script src="assets/libs/particles.js/particles.js"></script>
   <!-- particles app js -->
   <script src="assets/js/pages/particles.app.js"></script>
-
-  <!-- Countdown js -->
-  <script src="assets/js/pages/coming-soon.init.js"></script>
-
 </body>
 
 
-<!-- Mirrored from themesbrand.com/velzon/html/material/pages-coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 13:05:20 GMT -->
+<!-- Mirrored from themesbrand.com/velzon/html/material/auth-lockscreen-basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 13:04:24 GMT -->
 
 </html>
